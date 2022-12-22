@@ -1,0 +1,14 @@
+html{
+     scroll-behavior: smooth;
+}
+
+::selection{
+     background-color: transparent;
+}
+
+
+#scrollbar::-webkit-scrollbar{
+     display: none;
+     -ms-overflow-style: none;
+     scrollbar-width: none;
+}
